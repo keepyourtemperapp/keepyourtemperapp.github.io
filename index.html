@@ -1,255 +1,139 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
- <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="IDCATF is the cutest and easiest temp file remover that helps you keep your device clean, smooth, and fast by removing unnecessary files automatically.">
+    <meta name="description" content="KEEP YOUR TEMPER! is the cutest and easiest temp file remover that helps you keep your device clean, smooth, and fast by removing unnecessary files automatically.">
     <meta name="keywords" content="temp file remover, delete temp files, clean computer, keep device smooth, lightweight file cleaner, secure file removal, free temp file cleaner">
     <meta name="author" content="Cyber Lua">
     <meta name="robots" content="index, follow">
-    <meta property="og:title" content="IDCATF - The cutest temp file remover">
-    <meta property="og:description" content="IDCATF helps you remove temporary files with ease, keeping your device clutter-free and running smoothly. Download now for a cleaner, faster PC.">
+    <meta property="og:title" content="KEEP YOUR TEMPER! - The cutest temp file remover">
+    <meta property="og:description" content="KEEP YOUR TEMPER! helps you remove temporary files with ease, keeping your device clutter-free and running smoothly. Download now for a cleaner, faster PC.">
     <meta property="og:image" content="https://raw.githubusercontent.com/cyber-lua/IDCATF/main/images/icon.ico">
     <meta property="og:url" content="https://www.example.com">
-    <meta name="twitter:title" content="IDCATF - The cutest temp file remover">
-    <meta name="twitter:description" content="IDCATF helps you remove temporary files with ease, keeping your device clutter-free and running smoothly. Download now for a cleaner, faster PC.">
+    <meta name="twitter:title" content="KEEP YOUR TEMPER! - The cutest temp file remover">
+    <meta name="twitter:description" content="KEEP YOUR TEMPER! helps you remove temporary files with ease, keeping your device clutter-free and running smoothly. Download now for a cleaner, faster PC.">
     <meta name="twitter:image" content="https://raw.githubusercontent.com/cyber-lua/IDCATF/main/images/icon.ico">
     <meta name="twitter:card" content="summary_large_image">
 
-    <title>IDCATF - The cutest temp file remover</title>
+    <title>KEEP YOUR TEMPER! - The cutest temp file remover</title>
     <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/cyber-lua/IDCATF/main/images/icon.ico">
     <style>
-
         /* Basic Reset */
-
         * {
-
             margin: 0;
-
             padding: 0;
-
             box-sizing: border-box;
-
         }
-
-
 
         body {
-
             font-family: 'Arial', sans-serif;
-
-            background-color: #ffe6f2; /* Soft pink background */
-
-            color: #333;
-
+            background-color: #2b2b2b; /* Dark background */
+            color: #f0f0f0; /* Light text */
             display: flex;
-
             flex-direction: column;
-
             align-items: center;
-
         }
-
-
 
         header, .download-page, .features, footer {
-
-            background-color: #fff;
-
+            background-color: #1f1f1f; /* Darker container background */
             width: 90%;
-
             max-width: 600px;
-
             margin: 2rem auto;
-
             padding: 2rem;
-
             border-radius: 15px;
-
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
             text-align: center;
-
         }
-
-
 
         h1 {
-
-            color: #ff6fa9;
-
+            color: #02fc0f; /* Neon green text */
             font-size: 2.5rem;
-
             font-weight: bold;
-
             margin-bottom: 0.5rem;
-
         }
-
-
 
         p {
-
-            color: #555;
-
+            color: #ccc; /* Lighter gray text */
             font-size: 1.1rem;
-
             margin-bottom: 1.5rem;
-
         }
-
-
 
         .download-btn {
-
             display: inline-block;
-
             padding: 0.8rem 2rem;
-
             font-size: 1rem;
-
             color: #fff;
-
-            background-color: #ff85a2;
-
+            background-color: #02fc0f; /* Neon green button */
             border-radius: 25px;
-
             text-decoration: none;
-
             transition: background-color 0.3s ease;
-
         }
-
-
 
         .download-btn:hover {
-
-            background-color: #ff6fa9;
-
+            background-color: #00e600; /* Darker neon green on hover */
         }
-
-
 
         .features h2 {
-
             font-size: 1.8rem;
-
-            color: #ff6fa9;
-
+            color: #02fc0f; /* Neon green text */
             margin-bottom: 1rem;
-
         }
-
-
 
         .features ul {
-
             list-style: none;
-
-            color: #555;
-
+            color: #ccc; /* Lighter gray text */
         }
-
-
 
         .features li {
-
             font-size: 1.1rem;
-
             margin: 0.5rem 0;
-
             display: flex;
-
             align-items: center;
-
         }
-
-
 
         footer {
-
             padding: 1rem;
-
             color: #999;
-
             font-size: 0.9rem;
-
         }
-
-
 
         .download-page p {
-
-            color: #555;
-
+            color: #ccc; /* Lighter gray text */
             font-size: 1.1rem;
-
         }
-
-
 
         .download-link {
-
-            color: #ff6fa9;
-
+            color: #02fc0f; /* Neon green text */
             text-decoration: underline;
-
         }
-
-
-
     </style>
-
 </head>
 
 <body>
-
     <div id="main-page">
-
         <header>
-
-            <h1>IDCATF</h1>
-
+            <h1>KEEP YOUR TEMPER!</h1>
             <p>Your friendly neighborhood temp file remover. Let’s keep things clean and smooth! :3</p>
-
             <a href="download.html" class="download-btn">Download Now</a>
-
         </header>
 
-
-
         <section class="features">
-
             <h2>Features</h2>
-
             <ul>
-
                 <li>✨ Automatically deletes temporary files with one click</li>
-
                 <li>🚀 Keeps your device smooth and clutter-free</li>
-
                 <li>💡 Lightweight and fast</li>
-
                 <li>🔒 Safe and secure</li>
-
             </ul>
-
         </section>
 
-
-
         <footer>
-
-
             <p>Created by Cyber Lua</p>
-<a href="https://github.com/cyber-lua/IDCATF">Source Code</a>
+            <a href="https://github.com/cyber-lua/KEEPYOURTEMPER">Source Code</a>
         </footer>
-
     </div>
-
 </body>
 
 </html>
-
