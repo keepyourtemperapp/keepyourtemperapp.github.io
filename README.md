@@ -1,2 +1,1 @@
-# idcatf.github.io
-The official IDCATF site
+official site :3
